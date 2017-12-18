@@ -1,0 +1,38 @@
+
+
+.notif-mainContainer {
+    z-index: 999;
+    position: fixed;
+    width: 350px;
+    max-width: 98%;
+    font-family: "Segoe UI","Tahoma","Calibri","Verdana",sans-serif;
+    color: #999;
+    box-sizing: border-box;
+}
+
+.notif-mainContainer.topRight{
+    top: 8px;
+    right: 8px;
+}
+
+.notif-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.vanilla-yo-notification{
+    width: 250px;
+    background: #58a758;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+
+.notification_header{
+	font-size: 15px;
+    font-weight: bold
+}
