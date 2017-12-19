@@ -1,6 +1,6 @@
 (function(window){
-    var notif = new VanillaYoNotification({
-        position: ['bottom', 'left']
+    var notif = new VYN({
+        position: ['bottom', 'right']
     });
     var counter = 0;
     window.showNotificationSuccess = function(){

@@ -79,6 +79,8 @@ position filed expects an array of two values. This determines where the notific
 number filed is the one which determines how much time notification should be visible. It expects time in **milliseconds**. Default value is *6000ms(6s)*
 
 
+#### [example](http://libvyn.indrajith.surge.sh/example/example.html)
+
 ### Support ME
 
 [![](https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0)](https://ko-fi.com/R6R36EBQ)

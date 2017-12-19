@@ -1,10 +1,12 @@
 const webpack = require("webpack");
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const DashboardPlugin = require("webpack-dashboard/plugin");
+const WebpackShellPlugin = require('webpack-shell-plugin');
+
+
 const nodeEnv = process.env.NODE_ENV || "development";
 const isProd = nodeEnv === "production";
-
+console.log(webpack.plugins);
 var config = {
   devtool: isProd ? "hidden-source-map" : "source-map",
   context: path.resolve("./src"),
@@ -45,7 +47,6 @@ var config = {
       output: { comments: false },
       sourceMap: true
     }),
-    new DashboardPlugin(),
     new webpack.LoaderOptionsPlugin({
       options: {
         tslint: {
@@ -53,6 +54,9 @@ var config = {
           failOnHint: true
         }
       }
+    }),
+    new WebpackShellPlugin({
+      onBuildEnd: 'cp -r dist/* docs/example/'
     })
   ],
   devServer: {
