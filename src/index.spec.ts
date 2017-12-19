@@ -1,5 +1,5 @@
-describe('TypeScript WebPack Starter Tests', () => {
-    it('A good way to start building an awesome lib is by doing Unit Tests 👌🏽', () => {
+describe('Vanilla Yo Notification Test', () => {
+    it('Initial Unit Test 👌🏽', () => {
         expect(true).toBe(true);
     });
 })

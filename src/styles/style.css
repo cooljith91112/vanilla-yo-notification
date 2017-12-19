@@ -10,9 +10,23 @@
     box-sizing: border-box;
 }
 
-.notif-mainContainer.topRight{
+.notif-mainContainer.top-right{
     top: 8px;
     right: 8px;
+}
+
+.notif-mainContainer.bottom-right{
+    bottom: 8px;
+    right: 8px;
+}
+
+.notif-mainContainer.top-left{
+    top: 8px;
+    left: 8px;
+}
+.notif-mainContainer.bottom-left{
+    bottom: 8px;
+    left: 8px;
 }
 
 .notif-inner {
@@ -22,14 +36,46 @@
 
 .vanilla-yo-notification{
     width: 250px;
-    background: #58a758;
     color: white;
     position: relative;
     cursor: pointer;
     padding: 8px;
     margin-bottom: 12px;
     display: flex;
+    border-radius: 10px;
+    -webkit-animation-duration: 500ms;animation-duration: 500ms;
 }
+
+.vanilla-yo-notification.error {
+    background: #e74c3c;
+}
+
+.vanilla-yo-notification.warning {
+    background: #f39c12;
+}
+
+.vanilla-yo-notification.success {
+    background: #2ecc71;
+}
+
+
+
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+
+.close {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+
 
 
 .notification_header{

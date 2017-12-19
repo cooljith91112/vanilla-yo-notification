@@ -3,4 +3,6 @@ export interface Config {
     timeout?: number;
     title: string;
     footer?: string;
+    type?: string;
+    position?: string[];
 }

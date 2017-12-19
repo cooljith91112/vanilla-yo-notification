@@ -1,3 +1,4 @@
-import VanillaYoNotification from "./vanilla.yo.notification";
+import VYN from "./yo/vanilla.yo.notification";
 
-(window as any).VanillaYoNotification = VanillaYoNotification;
+
+(window as any).VYN = VYN;
