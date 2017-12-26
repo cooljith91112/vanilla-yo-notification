@@ -5,6 +5,7 @@
 
 Complete documentation can be found here -> [libvyn.indrajith.surge.sh](http://libvyn.indrajith.surge.sh)
 
+[![CLA assistant](https://cla-assistant.io/readme/badge/cooljith91112/vanilla-yo-notification)](https://cla-assistant.io/cooljith91112/vanilla-yo-notification)
 
 ### Support ME
 
