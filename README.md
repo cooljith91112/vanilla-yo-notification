@@ -11,4 +11,4 @@ Complete documentation can be found here -> [libvyn-indrajith.surge.sh](https://
 
 ### Indrajth K L
 
-[![](https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0) =137x](https://ko-fi.com/R6R36EBQ)
+[![](https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0 =137x)](https://ko-fi.com/R6R36EBQ)
