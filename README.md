@@ -3,7 +3,7 @@
 **Vanilla-Yo-Notification(VYN)** is a light-weight **ES6** compatible **javascript** growl like notification library (JQuery Free).
 
 
-Complete documentation can be found here -> [libvyn.indrajith.surge.sh](http://libvyn.indrajith.surge.sh)
+Complete documentation can be found here -> [libvyn-indrajith.surge.sh](https://libvyn-indrajith.surge.sh/#/)
 
 [![CLA assistant](https://cla-assistant.io/readme/badge/cooljith91112/vanilla-yo-notification)](https://cla-assistant.io/cooljith91112/vanilla-yo-notification)
 
