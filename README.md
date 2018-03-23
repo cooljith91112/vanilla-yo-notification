@@ -1,5 +1,7 @@
 # Vanilla-Yo-Notification(VYN)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cooljith91112/vanilla-yo-notification.svg)](https://greenkeeper.io/)
+
 **Vanilla-Yo-Notification(VYN)** is a light-weight **ES6** compatible **javascript** growl like notification library (JQuery Free).
 
 
